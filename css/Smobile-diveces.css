@@ -1,0 +1,167 @@
+/* \\\\--------    Small Devices    --------//// */
+
+.main-ul li {
+    padding: .9em;
+}
+
+.main-ul li a {
+    font-size: .8rem;
+}
+
+.social-intro {
+    position: relative;
+    left: 0;
+    top: 72vh;
+}
+
+.home-intro {
+    /* top: 10rem; */
+    line-height: 2;
+}
+
+.home-intro b {
+    font-size: .9rem;
+}
+
+.home-intro span {
+    font-size: 1rem;
+    top: .1rem;
+}
+
+.more-intro a {
+    font-size: 1rem;
+}
+
+.particular-heading h3 {
+    font-size: .9rem;
+}
+
+.identity {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.reverse-flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.utility-pic img {
+    width: 10rem;
+    margin-top: 1.5rem;
+}
+
+.mys {
+    margin: 0;
+    padding: 1rem 0px;
+    font-size: 1rem;
+}
+
+.about-me {
+    flex-direction: column;
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+
+.about-me h3 {
+    font-size: 1rem;
+}
+
+.my-service {
+    font-size: 1rem;
+}
+
+.web-dev p {
+    font-size: .75rem;
+}
+
+.frontend {
+    flex-direction: column;
+}
+
+.contact {
+    margin-top: .5rem;
+}
+
+.contact-form input , textarea {
+    font-size: .7rem;
+    padding: .5rem;
+}
+
+.utility-audience-approach {
+    max-width: 12rem;
+    margin: 2rem auto;
+    font-size: .9rem;
+    word-spacing: .1rem;
+}
+
+.foot {
+    flex-direction: column-reverse;
+}
+
+.foot-left {
+    font-size: .7rem;
+    text-align: center;
+}
+
+.footer-social-intro {
+    position: inherit;
+}
+
+.footer-social-intro i {
+    width: 1.3rem;
+}
+
+.foot-right {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.gtm {
+    letter-spacing: .1rem;
+}
+
+.gtm i {
+    width: 2rem;
+}
+
+.mobile-number {
+    justify-content: center;
+    position: relative;
+    right: 0.4rem;
+}
+
+@media only screen and (min-width:275px) and (max-width:320px) {
+    .main-ul li a {
+        font-size: .75rem;
+    }
+    .home-intro b {
+        font-size: .7rem;
+    }
+    .home-intro span {
+        font-size: .9rem;
+    }
+    .more-intro a {
+        font-size: .8rem;
+    }
+    .particular-heading h3 {
+        font-size: .8rem;
+    }
+    .about-me {
+        max-width: 63vw;
+        line-height: 2.2rem;
+        left: 13vw;
+    }
+    .about-me h3 {
+        font-size: .7rem;
+    }
+    .mys {
+        font-size: 1rem;
+    }
+    .foot {
+        font-size: .6rem;
+    }
+}

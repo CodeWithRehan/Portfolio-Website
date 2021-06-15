@@ -1,0 +1,94 @@
+/* \\\\--------    Medium Devices    --------//// */
+
+@media screen and (min-width:361px) and (max-width:510px) {
+    .main-ul li {
+        padding: 1em;
+    }
+    .main-ul li a {
+        font-size: 1rem;
+    }
+    .social-intro {
+        position: relative;
+        left: 0;
+        top: 75vh;
+    }
+    .home-intro {
+        line-height: 2;
+    }
+    .home-intro b {
+        font-size: 1rem;
+    }
+    .home-intro span {
+        font-size: 1rem;
+    }
+    .more-intro a {
+        font-size: 1rem;
+    }
+    .particular-heading h3 {
+        font-size: 1rem;
+    }
+    .identity {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .reverse-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .utility-pic img {
+        width: 12rem;
+        margin-top: 2rem;
+    }
+    .mys {
+        margin: 0;
+        padding: 1rem 0px;
+        font-size: 1rem;
+    }
+    .about-me {
+        flex-direction: column;
+        line-height: 3rem;
+        padding: 0 1rem;
+        left: 7vw;
+    }
+    .about-me h3 {
+        font-size: 1rem;
+    }
+    .my-service {
+        font-size: 1rem;
+    }
+    .web-dev p {
+        font-size: .8rem;
+    }
+    .frontend {
+        flex-direction: column;
+    }
+    .utility-audience-approach {
+        max-width: 14rem;
+        margin: 2rem auto;
+        font-size: 1rem;
+    }
+    .foot {
+        font-size: .9rem;
+        flex-direction: column-reverse;
+    }
+    .foot-left {
+        font-size: .9rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .footer-social-intro {
+        position: inherit;
+    }
+    .foot-right {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .mobile-number {
+        justify-content: center;
+        position: relative;
+        right: 0.4rem;
+    }
+}

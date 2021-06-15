@@ -1,0 +1,158 @@
+/* \\\\--------    Large Devices    --------//// */
+
+.navbar {
+    flex-direction: column;
+}
+
+.logo img {
+    width: 5vw;
+}
+
+.main-ul li {
+    padding: 2em;
+}
+
+.main-ul li a {
+    font-size: 1.8rem;
+}
+
+.social-intro {
+    position: relative;
+    left: 0;
+    top: 75vh;
+}
+
+.home-intro {
+    line-height: 3rem;
+}
+
+.identity {
+    padding: 1rem;
+    padding-top: 3rem;
+    max-width: 88vw;
+    margin: auto
+}
+
+.discover {
+    margin-left: .5rem;
+}
+
+.utility-pic img {
+    width: 17rem;
+}
+
+.about-me {
+    max-width: 78vw;
+    position: relative;
+    left: 9vw;
+    bottom: 0;
+    padding: 1rem;
+}
+
+.about-me h3 {
+    font-size: 1.1rem;
+}
+
+.mys {
+    font-size: 1.2rem;
+    padding: 0;
+}
+
+.my-service {
+    font-size: 1.6rem;
+}
+
+.web-dev p {
+    font-size: 1.1rem;
+}
+
+.footer-social-intro {
+    position: inherit;
+}
+
+.foot-left {
+    font-size: .7rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.foot-right {
+    text-align: center;
+    font-size: .8rem;
+}
+
+@media only screen and (min-width:510px) and (max-width:715px) {
+    .main-ul li {
+        padding: 1.8em;
+    }
+    .main-ul li a {
+        font-size: 1.2rem;
+    }
+    .social-intro {
+        position: relative;
+        left: 0;
+        top: 70vh;
+    }
+    .home-intro p {
+        font-size: 1.3rem;
+    }
+    .home-intro span {
+        font-size: 1.8rem;
+        top: .3rem;
+    }
+    .reverse-flex {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .discover {
+        position: relative;
+        left: 9rem;
+        bottom: 1rem;
+        text-align: center;
+    }
+    .utility-pic img {
+        width: 11rem;
+    }
+    .mys {
+        font-size: .9rem;
+        padding: 1rem 2rem;
+    }
+    .about-me {
+        max-width: 74vw;
+        line-height: 2rem;
+    }
+    .about-me h3 {
+        font-size: .6rem;
+    }
+    .my-service {
+        font-size: 1.2rem;
+    }
+    .web-dev p {
+        font-size: .9rem;
+    }
+    .utility-audience-approach {
+        max-width: 18rem;
+        font-size: 1rem;
+    }
+    .foot {
+        flex-direction: column-reverse;
+    }
+    .foot-left {
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    .footer-social-intro {
+        position: inherit;
+    }
+    .foot-right {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .mobile-number {
+        justify-content: center;
+        position: relative;
+        right: 0.4rem;
+    }
+}

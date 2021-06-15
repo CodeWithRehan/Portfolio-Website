@@ -1,0 +1,147 @@
+/* \\\\--------    Utilities    --------//// */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+:root {
+    --font1: 'Fira Sans', sans-serif;
+    --font2: 'Roboto', sans-serif;
+    --font3: 'Ubuntu', sans-serif;
+}
+
+.utility-font-1 {
+    font-family: var(--font1);
+    font-weight: bold;
+}
+
+.utility-font-2 {
+    font-family: var(--font2);
+    font-weight: bold;
+}
+
+.utility-font-3 {
+    font-family: var(--font3);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.progress-loader {
+    width: 0%;
+    height: .21rem;
+    background: #fff;
+    animation: progress 1.5s ease-in-out backwards;
+}
+
+@keyframes progress {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.utility-help-scroller {
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #000;
+    border: 2px solid #fff;
+    width: 2rem;
+    position: fixed;
+    bottom: 4vh;
+    left: 0;
+    animation: disable .3s ease-in-out forwards;
+}
+
+.utility-help-scroller a {
+    color: #000;
+}
+
+.utility-help-scroller h3 {
+    color: #fff;
+    height: 2.5rem;
+}
+
+.utility-help-scroller :hover {
+    background-color: var(--color0);
+    transition: all .3s ease-in;
+}
+
+
+.utility-pic {
+    display: flex;
+}
+
+.utility-pic img {
+    /* height: 7vh; */
+    width: 22rem;
+    border: 2px solid #000;
+    border-radius: 1rem;
+    filter: drop-shadow(.3rem 0 .4rem #000);
+}
+
+.utility-pic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.utility-pic2 img {
+    width: 13rem;
+    border: 2px solid #000;
+    border-radius: 2rem;
+}
+
+.particular-heading {
+    /* max-width: 75vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.particular-heading h3 {
+    background-color: var(--color0);
+    border: 3px solid var(--color2);
+    color: #fff;
+    padding: .8rem;
+    font-size: 1.5rem;
+    letter-spacing: .09rem;
+}
+
+.kw-field-error-message {
+    font-size: .85em;
+    color: #ff3852;
+    display: block;
+    padding: .5rem .8rem;
+}
+
+.utility-btn {
+    color: #fff;
+    background-color: var(--color0);
+    border: 2px solid var(--color1);
+    border-radius: .4rem;
+    padding: .5rem 1rem;
+    margin-top: .7rem;
+    cursor: pointer;  
+}
+
+.utility-btn:hover {
+    border:2px solid var(--color2);
+}
+
+.utility-btn:focus {
+    background-color: #010725;
+}
+
+.utility-audience-approach {
+    max-width: 40rem;
+    margin: 2rem auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--color1);
+    filter: drop-shadow(.3rem 1rem .1rem #000);
+}
