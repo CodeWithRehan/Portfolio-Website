@@ -290,8 +290,7 @@ header {
 }
 
 .web-dev span {
-    font-size: 1rem;
-    color: var(--color2);
+    font-size: 1.2rem;
 }
 
 .frontend {
