@@ -9,6 +9,20 @@
     --font3: 'Ubuntu', sans-serif;
 }
 
+.m-1{
+    margin: 1rem;
+}
+
+.cv a{
+    /* border: #fff solid 3px; */
+    color: #fff;
+    filter: drop-shadow(.2rem .10rem  .2rem #fff);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .utility-font-1 {
     font-family: var(--font1);
     font-weight: bold;
